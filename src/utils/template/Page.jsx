@@ -1,5 +1,5 @@
 import { WpParser } from "../tools";
-
+export const config = { runtime: "edge" };
 export default function DefaultPage(props) {
   const { single } = props;
   const content = typeof single?.content === "string" ? single?.content : "";
