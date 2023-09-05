@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    runtime: "edge"
-  },
+  runtime: 'experimental-edge',
   images: {
     domains: [
       "www.facebook.com",
